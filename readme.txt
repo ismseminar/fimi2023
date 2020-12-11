@@ -1,0 +1,1 @@
+This source is modified from a source of "Deep Learning for Physical Sciences" (https://dl4physicalsciences.github.io) by Atilim Gunes Baydin (gunes@robots.ox.ac.uk), and the Stellar template by HTML5 UP (html5up.net) by AJ (aj@lkn.io), which is released free for personal and commercial use under the CCA 3.0 license (html5up.net/license).
