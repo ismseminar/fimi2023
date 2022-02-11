@@ -1692,9 +1692,19 @@
 		a:hover {
 			border-bottom-color: transparent;
 		}
+    
+    	a.normal {
+			-moz-transition: color 0.2s ease, border-bottom 0.2s ease;
+			-webkit-transition: color 0.2s ease, border-bottom 0.2s ease;
+			-ms-transition: color 0.2s ease, border-bottom 0.2s ease;
+			transition: color 0.2s ease, border-bottom 0.2s ease;
+			text-decoration: none;
+			border-bottom: dotted 1px;
+			color: revert;
+		}
 
 	strong, b {
-		font-weight: 400;
+		font-weight: 700;
 	}
 
 	em, i {
@@ -1716,7 +1726,15 @@
 			column-gap: 2em;
 			text-align: justify;
 		}
-
+		
+		p.indent {
+			margin: 0 0 2em 2em;
+		}
+	
+	div.indent{
+			margin: 0 0 2em 2em;
+		}
+		
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		line-height: 1.5;
@@ -2588,6 +2606,11 @@
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
+	
+	ul.indent {
+		list-style: disc;
+		margin: 0 0 2em 2em;
+	}
 
 		ul li {
 			padding-left: 0.5em;
@@ -2597,6 +2620,10 @@
 			list-style: none;
 			padding-left: 0;
 		}
+
+			ul.alt2 li {
+				padding: 0.4em 0;
+			}
 
 			ul.alt li {
 				border-top: solid 1px;
