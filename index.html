@@ -185,12 +185,12 @@
 												<p>
 												<a href="https://www.gatsby.ucl.ac.uk/~gretton/" target="_blank"><b>Atrhur Gretton</b></a>  (University College London)
                                                 </br>
-												Title: TBW</br>
+												Title: Gradient Flows on Kernel Divergence Measures</br>
 												<label for="label_1_1" style="display: inline-block; _display: inline;">Abstract</label>
 												</p>
 												<input type="checkbox" id="label_1_1"/>
 												<div class="hidden_show">
-													<h5>TBW</h5>
+													<h5>We construct Wasserstein gradient flows on two measures of divergence, and study their convergence properties. The first divergence measure is the Maximum Mean Discrepancy (MMD): an integral probability metric defined for a reproducing kernel Hilbert space (RKHS), which serves as a metric on probability measures for a sufficiently rich RKHS. We obtain conditions for convergence of the gradient flow towards a global optimum, and relate this flow to the problem of optimizing neural networks. The second divergence measure on which we define a flow is the KALE (KL Approximate Lower-bound Estimator) divergence. This is a regularized version of the Fenchel dual problem defining the KL over a restricted class of functions (again, a Reproducing Kernel Hilbert Space (RKHS)). We also propose a way to regularize both the MMD and KALE gradient flows, based on an injection of noise in the gradient. This algorithmic fix comes with theoretical and empirical evidence. We compare the MMD and KALE flows, illustrating that the KALE gradient flow is particularly well suited when the target distribution is supported on a low-dimensional manifold.</h5>
 												</div>
 											</div>
 											</td>
@@ -255,12 +255,13 @@
 												<p>
 												<a href="https://hermite.jp" target="_blank"><b>Han Bao</b></a> (Kyoto University)
 												</br>
-												Title: TBW</br>
+												Title: Proper Losses, Moduli of Convexity, and Surrogate Regret Bounds
+</br>
 												<label for="label_1_5" style="display: inline-block; _display: inline;">Abstract</label>
                                                 </p>
 												<input type="checkbox" id="label_1_5"/>
 												<div class="hidden_show">
-													<h5>TBW</h5>
+													<h5>Proper losses (or proper scoring rules) have been used for over half a century to elicit users' subjective probability from the observations. In the recent machine learning community, we often tackle downstream tasks such as classification and bipartite ranking with the elicited probabilities. Here, we engage in assessing the quality of the elicited probabilities with different proper losses, which can be characterized by surrogate regret bounds to describe the convergence speed of an estimated probability to the optimal one when optimizing a proper loss. This work contributes to a sharp analysis of surrogate regret bounds in two ways. First, we provide general surrogate regret bounds for proper losses measured by the $L^1$ distance. This abstraction eschews a tailor-made analysis of each downstream task and delineates how universally a loss function operates. Our analysis relies on a classical mathematical tool known as the moduli of convexity, which is of independent interest per se. Second, we evaluate the surrogate regret bounds with polynomials to identify the quantitative convergence rate. These devices enable us to compare different losses, with which we can confirm that the lower bound of the surrogate regret bounds is $\Omega(\epsilon^{1/2})$ for popular loss functions.</h5>
 												</div>
 											</div>
 											</td>
@@ -370,12 +371,11 @@
 												<p>
 												<a href="https://www.microsoft.com/en-us/research/people/gregyang/" target="_blank"><b>Greg Yang</b></a> (Microsoft Research)
 												</br>
-												Title: TBW</br>
+												Title: The unreasonable effectiveness of mathematics in large scale deep learning</br>
 												<label for="label_3_1" style="display: inline-block; _display: inline;">Abstract</label></p>
 												<input type="checkbox" id="label_3_1"/>
 												<div class="hidden_show">
-													<h5>
-														TBW</h5>
+													<h5>Recently, the theory of infinite-width neural networks led to the first technology, muTransfer, for tuning enormous neural networks that are too expensive to train more than once. For example, this allowed us to tune the 6.7 billion parameter version of GPT-3 using only 7% of its pretraining compute budget, and with some asterisks, we get a performance comparable to the original GPT-3 model with twice the parameter count. In this talk, I will explain the core insight behind this theory. In fact, this is an instance of what I call the *Optimal Scaling Thesis*, which connects infinite-size limits for general notions of “size” to the optimal design of large models in practice, illustrating a way for theory to reliably guide the future of AI. I'll end with several concrete key mathematical research questions whose resolutions will have incredible impact on how practitioners scale up their NNs.</h5>
 												</div>
 											</div>
 											</td>
@@ -427,13 +427,14 @@
 												<p>
 												<a href="https://yutomiyatake.github.io" target="_blank"><b>Yuto Miyatake</b></a>  (Osaka University)
 												</br>
-												Title: TBW</br>
+												Title: Adjoint-based exact Hessian computation</br>
 												<label for="label_3_4" style="display: inline-block; _display: inline;">Abstract</label>
 												</p>
 												<input type="checkbox" id="label_3_4"/>
 												<div class="hidden_show">
-													<h5>
-														TBW</h5>
+													<h5>In this talk, we focus on the Hessian matrix of a function that involves the numerical solution of an initial value problem, with respect to the initial data and system parameters. Such a matrix arises frequently in the adjoint method, particularly in the context of data assimilation and ODENet. In these contexts, a linear system whose coefficient matrix is the Hessian needs to be solved. The conjugate gradient (CG) method is a suitable solver for this task, but it requires a Hessian-vector multiplication. The Hessian-vector multiplication can be approximated by numerically integrating the second-order adjoint system backwardly. However, this approach may not preserve the symmetry of the Hessian matrix, which can hinder the convergence of the CG method, particularly when the numerical solutions of the original system and second-order adjoint system are not sufficiently accurate.
+
+In this talk, we propose an algorithm that computes the Hessian-vector multiplication exactly. We achieve this by providing a concise derivation of the second-order adjoint system and by applying a particular numerical method to solve it. Specifically, we use symplectic partitioned Runge-Kutta methods. Our algorithm ensures that the Hessian matrix remains symmetric./h5>
 												</div>
 											</div>
 											</td>
