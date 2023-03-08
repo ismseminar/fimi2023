@@ -239,11 +239,14 @@
 												<p>
 												<a href="http://ibis.t.u-tokyo.ac.jp/suzuki/" target="_blank"><b>Taiji Suzuki</b></a> (The University of Tokyo)
 												</br>
-												Title: TBW</br>
+												Title: Nonparametric estimation ability of deep learning for modern structured models</br>
 												<label for="label_1_4" style="display: inline-block; _display: inline;">Abstract</label></p>
 												<input type="checkbox" id="label_1_4"/>
 												<div class="hidden_show">
-													<h5>TBW</h5>
+													<h5>In this presentation, I will discuss the ability of deep neural networks to estimate modern structured models such as Transformers and diffusion models from a nonparametric estimation perspective. 
+														<br>In the first half, I will present a nonparametric convergence analysis of transformer networks in a sequence-to-sequence problem. Transformer networks are the fundamental model for recent large language models. They can handle long input sequences and avoid the curse of dimensionality with variable input dimensions. We show that they can adapt to the smoothness property of the true function, even when the smoothness towards each coordinate depends on each different input. 
+														<br>In the latter half, I will present the estimation ability of diffusion models as a distribution estimator. We show that the empirical score matching estimator obtained in the class of deep neural networks achieves the nearly minimax optimal rates in terms of both the total variation distance and the Wasserstein distance, assuming the true density function belongs to the Besov space. Furthermore, we also consider a situation where the support of density lies in a low-dimensional subspace, and then show that the estimator is adaptive to the low dimensionality and achieves the minimax optimal rate corresponding to the intrinsic dimensionality.  
+														<br>If time permits, I will also present recent advances in the convergence analysis for the mean field Langevin dynamics for optimizing mean field neural networks.</h5>
 												</div>
 											</div>
 											</td>
@@ -316,13 +319,14 @@
 												<p>
 												<a href="https://ai.stanford.edu/~tengyuma/" target="_blank"><b>Tengyu Ma</b></a> (Stanford University)
 												</br>
-												Title: TBW</br>
+												Title: Three Facets of Understanding Pre-training: Loss, Inductive Bias of Architectures, and Implicit Bias of Optimizers</br>
 												<label for="label_2_3" style="display: inline-block; _display: inline;">Abstract</label>
                                                 </p>
 												<input type="checkbox" id="label_2_3"/>
 												<div class="hidden_show">
 													<h5>
-														TBW</h5>
+														AI is undergoing a paradigm shift with the rise of models pre-trained with self-supervisions and then adapted to a wide range of downstream tasks. However, their working largely remains a mystery--- classical learning theory does not apply to situations where training and test tasks are different. This talk will first investigate the role of pre-training losses, showing that contrastive loss extracts meaningful structural information from unlabeled data and the Euclidean distance between embeddings captures the manifold distance between raw datapoints (or, more generally, the graph distance of a so-called positive-pair graph). Moreover, directions in the embedding space correspond to relationships between clusters in the positive-pair graph. Then, I will discuss two other elements necessary for a sharp characterization of the practical pre-trained models: inductive bias of architectures and implicit bias of optimizers. I will introduce two recent projects, where we strengthen the previous theoretical framework by incorporating the inductive bias of architectures and analyze the role of implicit bias of optimizers in pre-training, empirically and theoretically.  
+														<br><br> Based on https://arxiv.org/abs/2106.04156, https://arxiv.org/abs/2204.02683, https://arxiv.org/abs/2211.14699, and https://arxiv.org/abs/2210.14199. </h5>
 												</div>
 											</div>
 											</td>
